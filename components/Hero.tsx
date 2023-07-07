@@ -3,6 +3,7 @@ import React from 'react'
 import { Cursor, Typewriter } from  'react-simple-typewriter';
 {/*import BackgroundCircles from "./BackgroundCircles"*/}
 import circlelogo from "@/public/assets/wedlogo92.svg"
+import mobilelogo from "@/public/assets/wedlogo91w.svg"
 import wedbg from "@/public/assets/wedbg1.webp"
 import mobilebg from "@/public/assets/mobilebg1.webp"
 
@@ -29,7 +30,8 @@ export default function hero({}: Props) {
         {/*<BackgroundCircles />*/}
             <Image className="z-0 invisible md:visible" src= {wedbg} alt='logo' fill style={{objectFit:"cover"}}/>
             <Image className="z-0 md:invisible" src= {mobilebg} alt='logo' fill style={{objectFit:"cover"}}/>
-            <Image className="relative rounded-full mx-auto object-cover mb-8 z-10 fill-red-400" src= {circlelogo} alt='logo'/>
+            <Image className="relative rounded-full mx-auto object-cover mb-8 z-10" src= {mobilelogo} alt='logo'/>
+
             {/* <img className=' relative rounded-full h-40 w-40 mx-auto object-cover mb-8' src="/assets/logo.jpg" alt="" /> */}
             <h1 className=' text-xl md:text-5xl lg:text-4xl text-[#F48377] font-serif p-10 z-10'>
                 <span>
@@ -44,7 +46,7 @@ export default function hero({}: Props) {
                   
                   /> */}
                 </span>
-                <Cursor cursorColor="#EF4444" cursorStyle='_'/>
+                <Cursor cursorColor="#EF4444" cursorStyle='\/'/>
             </h1>
             <a href="https://forms.gle/FyKxxWpVwj94kCpK7" className='z-10'>
               <button className="bg-[#E94D77] hover:bg-white text-white hover:text-[#E94D77] font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out z-10">RSVP Here</button>
