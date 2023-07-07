@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import { Cursor, Typewriter } from  "react-simple-typewriter";
+import { Cursor, Typewriter } from  'react-simple-typewriter';
 {/*import BackgroundCircles from "./BackgroundCircles"*/}
 import circlelogo from "@/public/assets/wedlogo91.png"
 import wedbg from "@/public/assets/wedbg.webp"
